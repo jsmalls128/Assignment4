@@ -44,8 +44,8 @@ int main(int argc, char * argv[]){
     quickSort(numbArray,0,9999);
     long comparisions =  compares;
     cout << "Quick sort: ";
-    for (int i = 0; i < 5; i++){
-      cout << numbArray[9999] <<" ";
+    for (int i = 0; i < 9999; i++){
+      cout << numbArray[i] <<" ";
     } 
     cout << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
   }

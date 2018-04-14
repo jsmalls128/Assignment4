@@ -27,27 +27,27 @@ int main(int argc, char * argv[]){
   if(input == 'i'){
     long comparisions =  insertionSort(numbArray);
     cout << "Insertion sort: ";
-    for (int i = 0; i < 5; i++){
+    for (int i = 0; i < 9999; i++){
       cout << numbArray[i] <<" ";
     } 
-    cout << ".... " << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
+    cout << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
   }
   else if(input == 'm'){
     long comparisions =  mergeSort(numbArray,0,9999);
     cout << "Merge sort: ";
-    for (int i = 0; i < 5; i++){
+    for (int i = 0; i < 9999; i++){
       cout << numbArray[i] <<" ";
     } 
-    cout << ".... " << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
+    cout << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
   }
   else if(input == 'q'){
     quickSort(numbArray,0,9999);
     long comparisions =  compares;
     cout << "Quick sort: ";
     for (int i = 0; i < 5; i++){
-      cout << numbArray[i] <<" ";
+      cout << numbArray[9999] <<" ";
     } 
-    cout << ".... " << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
+    cout << numbArray[9999]<< "\n\tTotal # of comparisons: " << comparisions << endl;
   }
   else{
     cout << "ERROR, Invalid_Input\n";

@@ -5,4 +5,4 @@ main.o: Main.cpp
 Sorting.o: Sorting.cpp
 	g++ -Wall -std=c++14 -g -O0 -pedantic-errors -c Sorting.cpp
 clean:
-	rm main Main.o
+	rm main Main.o Sorting.o
